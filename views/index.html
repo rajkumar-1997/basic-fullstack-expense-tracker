@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h2>Expense Tracker</h2>
+      <div class="mainbox">
+        <div class="form-box">
+            
+                <h3 class="heading">Add Your Expense</h3>
+           
+            <form>
+                
+                <div class="boxinput">
+
+                    <label for="amount">Amount</label>
+                    <input type="text" class="input-items" id="amount" name="amount" placeholder="Enter Amount Here">
+                </div>
+                <div class="boxinput">
+
+                    <label for="category">Category</label>
+                   <select name="category" id="category">
+                    <option  selected >Choose Category</option>
+                    <option >Travel</option>
+                    <option >Kitchen</option>
+                    <option >Medical</option>
+                    <option >Shopping</option>
+
+                   </select>
+                </div>
+                <div class="boxinput">
+
+                    <label for="description">Description</label>
+                    <input type="text" class="input-items" id="description" name="description" placeholder="Write Description Here">
+                </div>
+
+                
+                <button type="submit"  class="addbtn" id="adddata">Add</button>
+                <button type="submit"   class="updatebtn"  id="updatedata">Update</button>
+            </form>
+        </div>
+    </div>
+    <div  class="tablediv">
+    <table  bgcolor="white">
+        <thead>
+            <tr bgcolor="green">
+                
+                <th class="tableheading" >Amount</th>
+                <th class="tableheading">Category</th>
+                <th class="tableheading">Description</th>
+                <th class="tableheading">Modification</th>
+            </tr>
+        </thead>
+         <tbody id="tablebody" >
+
+            
+         </tbody>
+        
+    </table>
+</div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.3.5/axios.min.js" integrity="sha512-nnNHpffPSgINrsR8ZAIgFUIMexORL5tPwsfktOTxVYSv+AUAILuFYWES8IHl+hhIhpFGlKvWFiz9ZEusrPcSBQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="/script.js"></script>
+</body>
+</html>

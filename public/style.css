@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: rgb(7, 2, 78);
+    color: white;
+}
+body h2{
+  
+    text-align: center;
+   
+    background-color: black;
+    padding: 9px 5px ;
+    margin-top: 0px;
+    
+ 
+  
+}
+
+
+.form-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    height: 500px;
+    
+}
+
+.form-box h3{
+    margin-bottom:352px;
+    z-index: 2;
+    color: rgb(93, 2, 10);
+}
+.form-msj h4{
+    margin-right: 175px;
+    color: rgb(192, 7, 7);
+}
+
+
+
+form{
+    position: absolute;
+    background-color:rgb(17, 158, 240);
+    height: 380px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid rgb(225, 129, 32);
+    border-radius: 5px;
+}
+.boxinput {
+    margin: 10px 19px;
+}
+
+.boxinput label{
+    
+    padding: 2px 78px;
+   margin: 15px -76px;
+   color: white;
+   font-size: 1.1em;
+   color: rgb(146, 3, 99);
+   font-weight: bold;
+}
+
+.boxinput input{
+    width: 310px;
+    height: 30px;
+    outline: none;
+    border: 2px solid goldenrod;
+    border-radius: 4px;
+}
+.boxinput select{
+    width: 315px;
+    height: 35px;
+    outline: none;
+    border: 2px solid goldenrod;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+
+.boxinput input{
+   font-size: 1em;
+}
+.addbtn{
+    font-size: 1.2em;
+    padding: 8px 137px;
+    background-color: rgb(224, 10, 10);
+    outline: none;
+    border: 2px solid white;
+    border-radius: 5px;
+    
+}
+.addbtn:hover{
+    background-color: green;
+    border: 2px solid rgb(24, 3, 3);
+    border-radius: 5px;
+}
+.updatebtn{
+    font-size: 1.2em;
+    padding: 7px 125px;
+    background-color: rgb(237, 168, 19);
+    outline: none;
+    border: 2px solid white;
+    border-radius: 5px;
+    display: none;
+}
+
+.updatebtn:hover{
+    background-color: green;
+    border: 2px solid rgb(24, 3, 3);
+    border-radius: 5px;
+}
+
+
+.tablediv{
+    
+    width: 60%;
+    margin-left: 236px;
+    height: 150px;
+   
+   
+}
+ table thead tr .tableheading{
+    
+    padding: 8px 57px ;
+    color: black;
+    margin-top: 5px;
+    font-size: 17px;
+}
+table tbody tr td{
+    text-align: center;
+    color: rgb(239, 231, 231);
+    font-weight: bold;
+}
+
+#tablebody{
+    background-color: rgb(7, 2, 78);
+}
+
+#tablebody tr td {
+     padding: 4px 5px;
+     font-size: 17px;
+}
+
+.editbtn{
+    margin-left: 20px;
+    padding: 4px 9px;
+    background-color: rgb(210, 203, 11);
+    color: black;
+    border-radius: 4px;
+    outline: none;
+}
+
+.deletebtn{
+    background-color: red;
+    color: rgb(248, 245, 245);
+    padding: 4px 1px;
+    border-radius: 4px;
+    outline: none;
+}
+
+
+
+
